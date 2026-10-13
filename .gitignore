@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Node / React
+node_modules/
+build/
+dist/
+npm-debug.log*
+.env.example
+uploads/
+protected/
+
+# AI models and generated files
+*.h5
+*.keras
+*.pth
+*.pt
+*.onnx
+*.pb
+models/
+checkpoints/
+
+# Uploaded files and generated outputs
+uploads/
+outputs/
+protected_images/
+*.log
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# AI model cache
+backend/model_cache/
+
+# Generated protected/redacted images
+backend/protected/
+
+# Test and temporary images
+backend/test_images/
+backend/test.jpg
+backend/protected_compare.png
+backend/protected_identity_test.jpg
+backend/geometric_watermarked.png
+backend/watermarked.jpg
+backend/watermarked.png
+
+# All image and document files
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+
+# Windows shortcut
+*.lnk
+
+# Real environment files
+.env
+.env.*
+!.env.example
+# Ignore generated protection outputs
+/backend/protected/
+/backend/test_images/
+/backend/model_cache/
+
+# Ignore generated image and document files
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+
+# Ignore Windows shortcuts
+*.lnk
