@@ -26,7 +26,6 @@ protected/
 *.pt
 *.onnx
 *.pb
-models/
 checkpoints/
 
 # Uploaded files and generated outputs
